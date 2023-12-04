@@ -1,0 +1,1 @@
+print((lambda a,b,c:f'{a}+{b}+{c}={a+b+c}\n{a}*{b}*{c}={a*b*c}\n({a}+{b}+{c})/3={(a+b+c)/3:.3f}')(*map(int,input().split())))
