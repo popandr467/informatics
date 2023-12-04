@@ -1,0 +1,1 @@
+print((0,3,2,0)[len(set(map(int,input().split())))])

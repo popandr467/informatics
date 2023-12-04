@@ -1,0 +1,1 @@
+print(sum((lambda x,y:(i**2 for i in range(x,y+1)))(*map(int,input().split()))))

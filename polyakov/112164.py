@@ -1,0 +1,1 @@
+print((lambda x,y:''.join(map(lambda z:str(int(z)),(y<1,x+y<0,(x**2+y**2)<1,((x-1)**2+y**2)<1))))(*map(float,input().split())))

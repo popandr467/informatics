@@ -1,0 +1,1 @@
+print((lambda x,y:(lambda x,y,c:-c if x^y<0 else c)(x,y,sum(abs(x) for _ in range(abs(y)))))(*map(int,input().split())))

@@ -1,0 +1,1 @@
+print((lambda i:((*['winter']*2,*['spring']*3,*['summer']*3,*['autumn']*3,'winter')[i-1] if 0<i<13 else 'NO'))(int(input())))

@@ -1,0 +1,1 @@
+print('\n'.join((lambda x,y:(f'{i}*{i}={i**2}' for i in range(x,y+1)))(*map(int,input().split()))))

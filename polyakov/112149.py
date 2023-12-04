@@ -1,0 +1,1 @@
+print((lambda x1,y1,x2,y2:f'{((x2-x1)**2+(y2-y1)**2)**.5:.3f}')(*map(float,input().split()),*map(float,input().split())))

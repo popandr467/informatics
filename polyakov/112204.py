@@ -1,0 +1,1 @@
+print(*range(2,(int(input())<<1)+1,2))

@@ -1,0 +1,1 @@
+print(*(lambda t:(min(t),max(t)))(tuple(map(int,input().split()))),sep='\n')

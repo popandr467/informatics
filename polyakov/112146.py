@@ -1,0 +1,1 @@
+print((lambda r,pi:f'{pi*r**2:.3f}\n{pi*r*2:.3f}')(float(input()),3.14159265358))
